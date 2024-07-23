@@ -1,45 +1,60 @@
-<!-- Declaración del tipo de documento -->
-<!DOCTYPE html> 
-
+<!--<!DOCTYPE html> :  Declaración del tipo de documento -->
+<!DOCTYPE html>
+<!-- <html lang="en"> :  Etiqueta raíz del documento. -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <head> :  Contiene metadatos, como el título de la página. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <title>: Define el título en la barra del navegador. -->
     <title>Pagina1</title>
-    
-</head>
-<body>
-    
+  </head>
+
+  <!--<body>:  Contiene el contenido visible de la página.-->
+  <body>
+    <!-- Encabezados (<h1> a <h6>) -->
     <h1>Soy un titulo</h1>
     <h2>titulo2</h2>
     <h6>subtitulo</h6>
-    <p>Hola soy un parrafo</p>  
 
-    <a href="https://www.google.com/?hl=es" target="_blank">
-        Ir a google
-    </a>
+    <!-- Etiqueta de Párrafo (<p>) -->
+    <p>Hola soy un parrafo</p>
+
+    <!-- Enlaces - hipervinculos (<a>) Atributo importante: href (destino del enlace).
+        target="_blank": Nos permite abrir el enlace en una nueva página
+    -->
+    <a href="https://www.google.com/?hl=es" target="_blank"> Ir a google </a>
     <br />
-    <img src="https://ethic.es/wp-content/uploads/2023/03/imagen.jpg" width="100px" >
+
+    <!-- Imágenes (<img>)
+        src:  fuente de la imagen - Carpeta local o link de imagen
+        alt: Texto alternativo de la imagen
+    -->
+    <img
+      src="https://ethic.es/wp-content/uploads/2023/03/imagen.jpg"
+      width="100px"
+    />
     <img src="./logo_kambcode.sg" alt="Logo Kabcode" />
-    <img src="https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg?size=626&ext=jpg">
+    <img
+      src="https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg?size=626&ext=jpg"
+    />
 
     <!-- Listas Ordenadas -->
-     <h4>Lista Ordenada</h4>
-     <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-     </ol>
+    <h4>Lista Ordenada</h4>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
 
-     <!-- Esto es un comentario -->
-     <!-- Listas no Ordenadas -->
-      
+    <!-- Esto es un comentario -->
+    <!-- Listas no Ordenadas -->
 
-     <h4>Lista No Ordenada</h4>
-     <ul>
-        <li>Item1</li>
-        <li>Item2</li>
-     </ul>
-
-</body>
+    <h4>Lista No Ordenada</h4>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+    </ul>
+  </body>
 </html>
