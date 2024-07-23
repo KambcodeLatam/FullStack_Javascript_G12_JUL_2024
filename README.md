@@ -22,3 +22,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Cómo instalar GitHub https://youtu.be/ZOUqjep8hWc
 - Cómo usar Discord para las sesiones de trabajo colaborativo https://youtu.be/etfWfN1b0YI
 ## Modulo 1
+- 22/06/2024 Introducción a HTML https://youtu.be/Bqx30jVtmVI
