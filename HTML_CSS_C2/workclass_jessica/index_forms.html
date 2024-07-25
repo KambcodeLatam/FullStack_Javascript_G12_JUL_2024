@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <!-- <form> Etiqueta para definir mi formulario -->
+    <!-- <input> Nos permite definir campos de entrada cuenta con diferentes tipos como lo son:
+        text, number, password, email, checkbox, radio, entre otros...
+    -->
+    <!-- <textArea>  Nos permite tener un campo multilinea para textos grandes como por ejemplo comentarios -->
+    <form action="" method="">
+      <div>
+        <!-- <label>Ingrese nombre</label> -->
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Ingresa nombre"
+          value="Jose"
+        />
+      </div>
+      <br />
+      <div>
+        <label> Número</label>
+        <input type="number" name="numero" />
+      </div>
+      <br />
+      <div>
+        <label> Contraseña</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Ingresa Contraseña"
+        />
+      </div>
+      <br />
+      <div>
+        <label> Correo</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label>
+          Checkbox
+          <input type="checkbox" name="opcion1" value="Red" />
+          <input type="checkbox" name="opcion1" value="Yellow" />
+        </label>
+      </div>
+      <br />
+      <div>
+        <label> Radio Button</label>
+        <br />
+        <label>
+          Femenino
+          <input type="radio" name="radio" value="f" />
+        </label>
+        <br />
+        <label> Masculino <input type="radio" name="radio" value="m" /> </label>
+        <input type="radio" name="radio2" value="m" />
+      </div>
+      <br />
+      <div>
+        <label> TextArea</label>
+        <textarea
+          placeholder="Comentario"
+          name="descripción"
+          rows="4"
+          cols="50"
+        >
+        </textarea>
+      </div>
+    </form>
+  </body>
+</html>
