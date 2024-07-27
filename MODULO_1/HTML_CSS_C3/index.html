@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <h1>Formularios</h1>
+
+    <form action="/sendData" method="">
+        <!--  text, password, email, number, date, checkbox, radio,   -->
+        <input type="date" name="fecha" /> 
+        <!-- <label>  -->
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required /> 
+        
+        <label for="nombre">Apellido</label>
+        <input type="text" name="apellido" id="nombre" value="Lopez" readonly /> 
+
+        <label for="nombre">Documento</label>
+        <input type="text" name="document" id="nombre" disabled/> 
+
+        <textarea name="comentarios">
+        </textarea>
+
+        <br/>
+        <br/>
+        <!-- Select: Lista desplegable de opciones -->
+         <!-- selected: Permite definir un valor por defecto-->
+          <!-- disabled: Permite deshabilitar una opción -->
+        <select name="country">
+            <option value="" selected disabled> Seleccione una opción </option>
+            <option value="col" > Colombia </option>
+            <option value="us"> Estados Unidos </option>
+            <option value="ca"> Canada </option>
+        </select>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label>Femenino
+                <input type="radio" name="gender" value="f" />
+            </label>
+            <label>Masculino
+                <input type="radio" name="gender" value="m" />
+            </label>
+        </fieldset>
+        
+        <button type="button" onclick="alert('')"> Añadir</button>
+        <button type="submit">
+             Enviar
+        </button>
+
+    </form>
+
+    <!-- 
+        Formulario de registro de usuarios 
+    
+        * Nombre de usuario (input tipo texto)
+        * Contraseña (input tipo contraseña)
+        * Correo electronico (input tipo email)
+        * edad (tipo number)
+        * Genero ( tipo radio)
+        * Aceptar terminos y condiciones (checkbox)
+        * Botón para enviar el formulario (submit)
+    -->
+
+    <!-- 
+        Formulario de Quejas y reclamos
+
+        * Nombre y Apellido (input)
+        * Seleccion de pais (select)
+        * Caja de comentarios ( textarea)
+        * Botón para enviar el formulario (submit)
+    -->
+
+    <label>
+       Rojo
+        <input type="checkbox" name="colores" value="red" />
+    </label>
+    <label>
+        Azul
+         <input type="checkbox" name="colores" value="blue" />
+     </label>
+
+
+    <div>
+        <p>Genero</p>
+        <label>
+            Femenino
+            <input type="radio" name="genero" value="f"  />
+        </label>
+        <label>
+            Masculino
+            <input type="radio" name="genero" value="m" />
+        </label>
+
+
+    </div>
+
+
+    <!-- <div style="display: flex;">
+        <img src="" alt="" />
+        <form>
+            ....
+        </form>
+    </div> -->
+</body>
+</html>

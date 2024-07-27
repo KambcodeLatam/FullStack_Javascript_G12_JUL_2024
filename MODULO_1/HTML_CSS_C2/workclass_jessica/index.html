@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+
+<body>
+    <!--Etiqueta Div  -->
+    <div style="display: flex;">
+        <h1>Jessica Sandoval</h1>
+        <p>Soy ingeniera industrial</p>
+    </div>
+
+    <div>
+        <h2>Experiencia laboral</h2>
+        <ul>
+            <li>
+                Desarrollador FrontEnd
+            </li>
+        </ul>
+    </div>
+
+    <!-- Etiqueta tabla <table> -->
+    <!-- Define que es una fila <tr> (table row) -->
+    <!-- Define que es un encabezado <th> (table header)-->
+    <!-- Define que es una celda de dato <td> (table data) -->
+
+    <table border="2">
+        <tr>
+            <th>Nombre</th>
+            <th> Edad </th>
+            <th> Ciudad</th>
+        </tr>
+        <tr>
+            <td>Jessica</td>
+            <td>30</td>
+            <td>Bogotá</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td></td>
+            <td>Cali</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>25</td>
+            <td>Cartagena</td>
+        </tr>
+    </table>
+
+    <!-- Estructura semántica -->
+
+    <!-- Indica que es un encabezado <thead> -->
+    <!-- Indica que es el contenido o cuerpo de nuestra tabla <tbody> -->
+    <!-- Indica que es el pie de la tabla <tfoot> -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Maiz
+                </td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>
+                    Arroz
+                </td>
+                <td>10</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>15</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- atributo colspan => Nos permite agrupar columnas -->
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2"> Titulo principal</th>
+            </tr>
+            <tr>
+                <th>Nombre </th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="200px" colspan="2">
+                    Jessica Sandoval
+                </td>
+
+            </tr>
+            <tr>
+                <td width="200px" colspan="2">
+                    <a href="https://www.google.com/?hl=es" target="_blank" /> Ir a google </a>
+                </td>
+            </tr>
+            <tr>
+                <td width="200px" colspan="2">
+                    <p>Este parrafo tiene un <span style="color:red"> span </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td width="200px" colspan="2">
+                    Volvo <button type="button" onclick="alert('Hola soy Volvo')">Guardar</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="200px" colspan="2">
+                    <button type="submit">Guardar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 
+        Etiqueta <button> => Crear botón  cuenta con diferentes tipos como lo son
+        "button" el cual por lo general va acompañado de un atributo de evento llamado (onclick)
+        y "submit" Generalmente se usa para enviar acciones a los formularios
+     -->
+    <button type="button" onclick="alert('Hola soy Volvo')">Guardar</button>
+
+</body>
+
+</html>
