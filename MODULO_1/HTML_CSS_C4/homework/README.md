@@ -15,7 +15,7 @@ En la generación de estilos hay infinitas maneras de llegar a un mismo resultad
    - Para el botón se vean con un borde redondeado usa la propiedad border radius, `border-radius: 20px;`
    - El botón e inputs deben tener un ancho  `width` de 350px `width: 350px;`.
 
-   - ![tarea1](./../resources/homework_light.jpeg)
+   - ![tarea1](../resources/homework_light.jpeg)
 2. Ahora intenta hacer la version dark de tu formulario de registro. 
    Crea una nueva hoja de estilos para que tu formulario se vea de la siguiente forma:
 
@@ -28,7 +28,7 @@ En la generación de estilos hay infinitas maneras de llegar a un mismo resultad
    - Todos los input tiene un borde sólido `border-style: solid;` de 2px de ancho  `border-width: 2px;` y de color `border-color: #9CA6FF;`
    - Los botones deben tener un borde sólido `border-style: solid;` de 2px  de ancho `border-width: 2px;` y de color `border-color: #9CA6FF;`
    - El botón "Register" debe tener un color de fondo  `background-color: #8B54FF`
-   - ![tarea2](./../resources/homework_dark.jpeg)
+   - ![tarea2](../resources/homework_dark.jpeg)
 
 
 
