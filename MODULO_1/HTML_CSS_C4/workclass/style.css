@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 h2 {
    color: orange;
 }
@@ -31,11 +35,27 @@ button {
     border-width: 2px;
     border-style: solid;
     border-radius: 11px;
-    
+
     /* border-radius: 11px 5px 0 4px; */
     
     /* border-bottom-right-radius: 11px; */
 }
+
+input {
+ color : green;
+ border: 2px dashed red;
+ /* background-color: orange; */
+ /* border-color: #3a5bf3;
+ border-width: 2px; */
+}
+
+.input-placeholder::placeholder {
+    color: blue;
+}
+
+/* input::placeholder {
+    color: blue
+} */
 
 /* .text {
     color: green
