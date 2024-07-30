@@ -1,0 +1,46 @@
+h2 {
+   color: orange;
+}
+
+p { 
+  /* color: blue; */
+  /* font-size: Establecer tamaños */
+  font-size: 16px;
+  /* font-weight: Definir el grosor del texto */
+  font-weight: bold;
+  /* font-family: Definir el tipo de letra */
+  font-family: Arial;
+}
+
+div {
+    /* Fondo de color */
+    background-color: red;
+    /* Definir el ancho */
+    width: 200px;
+    /* Definir el alto */
+    height: 100px;
+    color: white;
+}
+
+button {
+    background-color: #f7a796;
+    width: 100px;
+    height: 30px;
+    font-family: Arial;
+    border-color: #3a5bf3;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 11px;
+    
+    /* border-radius: 11px 5px 0 4px; */
+    
+    /* border-bottom-right-radius: 11px; */
+}
+
+/* .text {
+    color: green
+}
+
+#txt1 {
+    color: purple;
+} */
