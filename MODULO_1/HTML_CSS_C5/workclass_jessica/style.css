@@ -1,0 +1,171 @@
+/* Selector de ID: Busca en el html la etiquta con el atributo id que se especifique*/
+#italic {
+   font-style: italic; 
+}
+
+
+/* Selector de Clase: Busca en el html la etiquta o las etiquetas con el atributo clas que se especifique*/
+.container {
+   background-color: #efefef; 
+}
+
+/* PseudoElementos: Son palabras clave añadidas a los selectores que permiten dar estilo a una parte específica de un elemento. */
+
+/* ::before    Inserta contenido antes del contenido de un elemento. */
+#italic::before {
+   content: "'  '";
+   width: 50px;
+   height: 2px;
+   background-color: #3a5bf3;
+   border-radius:50%
+
+}
+
+/*  ::after Inserta contenido después del contenido de un elemento. */
+#italic::after {
+    content: " Este es el fin";
+    width: 50px;
+   height: 2px;
+   background-color: #3a5bf3;
+   color: white;
+   /* border-radius:50% */
+}
+
+/* ::first-line: Aplica estilo a la primera línea de un elemento de bloque. */
+
+.text::first-line {
+    color: blue;
+}
+
+/* ::first-letter: Aplica estilo a la primera letra de un elemento de bloque. */
+.text::first-letter {
+    font-size: 20px;
+}
+
+
+input {
+    color: blue;
+}
+
+/* ::placeholder: Aplica estilo al texto de marcador de posición dentro de un <input> o <textarea>. */
+input::placeholder {
+    padding-left:10px;
+    box-sizing:border-box;
+    /* color: blue; */
+}
+
+/* Pseudoclasses : Son palabras clave añadidas a los selectores que especifican un estado especial del elemento seleccionado.*/
+
+/* * hover : Cambia el estilo de un elemento cuando el cursor está sobre él. */
+button:hover {
+    background-color: purple;
+    color: white;
+    border: transparent;
+}
+
+h1 {
+    margin: 10px;
+}
+
+/*  focus: Aplica estilo a un elemento que tiene el foco (En este caso el cursor del input cambia a rojo) */
+input:focus {
+    color: red;
+  }
+
+/* :active se aplica a un enlace (o a cualquier elemento interactivo) mientras está siendo activado por el usuario. 
+Esto ocurre en el momento en que se hace clic sobre el enlace o se activa de alguna otra forma (por ejemplo, con la tecla Enter).
+Es un estado temporal que solo dura mientras se mantiene la interacción (clic o pulsación). */
+
+a:active {
+    border-color: orange
+}
+
+/* :visited  Se aplica a los enlaces que el usuario ya ha visitado. */
+a:visited {
+    color: green;
+}
+
+
+/*  nth-child(n): Selecciona el n-ésimo hijo de su elemento padre. */
+
+.list-items li:nth-child(2){
+    color: blue
+}
+
+/* :first-child : Seleccionan el primer elemento de su elemento padre */
+.list-items li:first-child {
+    color: green
+}
+
+/* :last-child : Seleccionan el último elemento de su elemento padre */
+.list-items li:last-child {
+    color: purple
+}
+
+input {
+    margin-bottom:10px;
+}
+
+/*   'box-model' (modelo de caja)   es una forma de representar y entender cómo los elementos HTML se organizan y se presentan en una página web. 
+  Todos las etiquetas de html son tomados como cajas.
+*/
+
+/* 
+    Estructura del Modelo de Caja
+    Content: El contenido del elemento, como texto o imágenes.
+    Padding: Espacio entre el contenido y el borde.
+    Border: Borde alrededor del padding (si se especifica).
+    Margin: Espacio fuera del borde que separa el elemento de otros elementos.
+*/
+
+.box-model {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+
+    /* padding-top:10px;
+    padding-left:30px;
+    padding-bottom: 10px;
+    padding-right: 50px; */
+    /* padding: 10px;   Aplica 10px de padding a todos los lados */ 
+    /* padding: 10px 20px;  Aplica 10px de padding arriba y abajo y 20px a los lados */
+    padding: 10px 10px 15px 5px;
+    box-sizing: border-box;
+    overflow:auto;  /* Añade el scroll a mi div */
+    border: 2px dashed red;
+    border-radius: 11px;
+
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+
+    /* margin: 20px 10px; */
+    margin: 10px auto;
+}
+
+/* 
+  box-sizing:  Determina cómo se calculan el ancho y el alto de un elemento. 
+        * content-box :  Con esta opción, el ancho y el alto de un elemento solo incluyen el contenido. El padding, el borde y el margen no están incluidos en estas medidas. 
+           Ejemplo: Si se establece un ancho de 200px para un div, su contenido tendrá 200px de ancho, pero el ancho total del div será mayor si se le añade padding y borde.
+
+        *  border-box:  Con esta opción, el ancho y el alto de un elemento incluyen el contenido, el padding y el borde, pero no el margen. 
+           Ejemplo: Si se establece un ancho de 200px para un div, este incluirá el contenido, el padding y el borde, asegurando que el tamaño total del div no exceda los 200px.
+*/
+
+.banner {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./../resources/fondo.jpg'); /* Añadir una imagen en mi div */
+    background-size: cover; /* Ajustar como quiero ver mi imagen*/
+    background-position: center; /* Posicionar imagen*/
+    background-repeat: no-repeat; /* No permitir que se muestre más de una imagen */
+    padding-top: 300px;
+    padding-left: 50px;
+    box-sizing: border-box;  
+}
+
+.banner h3, p {
+   margin-bottom: 50px;
+}
+
