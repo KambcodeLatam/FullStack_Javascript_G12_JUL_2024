@@ -1,0 +1,120 @@
+* {
+    margin: 0
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+   background-color: #fff; 
+   position: fixed;
+   top: 0;
+   width: 100%
+}
+
+li {
+    display : inline-block; 
+    margin: 10px 30px
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #5f9ea0
+}
+
+.header-title {
+    position:absolute;
+    top: 50%;
+    left:35%;
+    color: #fff;
+    font-size:100px
+}
+
+section {
+    margin: 40px 0px
+}
+
+h2 {
+    color: #5f9ea0;
+    /* Centrar textos */
+    text-align: center;
+}
+
+.about-text {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+#contact {
+    padding: 50px;  
+    width: 100%;
+}
+
+form {
+    margin: 10px auto;
+    width: 500px;
+    box-shadow: 0px 0px 4px 4px rgba(95, 158, 160, 0.5);
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+
+input, textarea {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #5f9ea0;
+    color: #5f9ea0;
+    margin: 10px auto;
+}
+
+input::placeholder , textarea::placeholder {
+    color: #5f9ea0;
+}
+
+button {
+    display: block;
+    border: 2px solid #5f9ea0;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100px;
+    background-color: transparent;
+    margin: 0 auto;
+    /* Cambiar el diseño del cursor */
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #5f9ea0;
+    color:  #fff
+}
+
+.sticky {
+    position: sticky;
+    bottom: 50px;
+    left: 20px;
+    width: 50px;
+    height: 50px; 
+}
+
+.sticky img {
+   width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
