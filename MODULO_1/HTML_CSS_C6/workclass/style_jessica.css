@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.enlace {
+    display: block;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 3px solid white;
+}
+
+.enlace:visited {
+    background-color: #deb887;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+    padding: 40px 20px;
+}
+
+.enlace:active {
+   background-color: #4682b4;
+}
+
+form {
+    background-color: #efefef;
+    margin: 50px auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form:focus-within {
+    background-color: antiquewhite;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px 5px;
+    border:none;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input:focus {
+   background-color: tomato;
+   color: white;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid tomato;
+}
+
+button:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.parent {
+    border: 2px solid #ff6347;
+    padding: 10px
+}
+
+.child {
+    margin-bottom: 5px;
+}
+
+.child:first-child {
+    background-color: burlywood;
+}
+.child:last-child {
+    background-color: #4682b4;
+}
+
+.child:nth-child(2) {
+   background-color: #800080;
+}
+
+/* Clases de pseudoElementos */
+
+.card {
+    background-color: #ff6e6e;
+    padding: 20px 15px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.cardTitle {
+    color: white;
+    text-align: center;
+    margin-bottom:10px;
+    position: relative;
+}
+
+.cardTitle::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 30px;
+    background-color:white;
+    position: absolute;
+    left: 60px;
+    top:4px
+}
+
+.cardTitle::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+}
+
+.cardText::first-letter {
+    font-size: 30px
+}
+
+.cardText::first-line {
+  color: white;
+  font-size:20px;
+}
+
+.cardText::selection {
+    background-color: orange;
+}
