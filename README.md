@@ -25,5 +25,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 22/06/2024 Introducción a HTML https://youtu.be/Bqx30jVtmVI
 - 24/06/2024 Tablas y bases de formularios https://www.youtube.com/watch?v=T0o-hi0YQDw
 - 26/06/2024 Formularios y HTML Semantico https://youtu.be/_DQTvxc4DeM
-- 29/06/2024 Introducción CSS meet.google.com/aku-ptkx-ixs
+- 29/06/2024 Introducción CSS https://youtu.be/-Tp9PMGSxTg
+- 31/06/2024 Box Model y Selectores de id y clase https://youtu.be/0c3QK06pc7c
 
