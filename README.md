@@ -27,5 +27,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/07/2024 Formularios y HTML Semantico https://youtu.be/_DQTvxc4DeM
 - 29/07/2024 Introducción CSS https://youtu.be/-Tp9PMGSxTg
 - 31/07/2024 Box Model y Selectores de id y clase https://youtu.be/0c3QK06pc7c
-- 02/08/2024 Repaso de pseudoclases y pseudoElementos, position https://youtu.be/NOXOYv6d9ag
+- 02/08/2024 Repaso de pseudoclases y pseudoElementos, position https://youtu.be/PYeqEsIUbIU
 
