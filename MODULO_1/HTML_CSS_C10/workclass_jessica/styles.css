@@ -1,0 +1,40 @@
+
+.container {
+  width: 800px;
+  height: 400px;
+  background-color: brown;
+  color: white;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .container {
+    width: 400px;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 391px){
+  .container {
+    width: 200px;
+    background-color: orange;
+  }
+}
+
+
+/* portrait: vertical / landscape: horizontal */
+
