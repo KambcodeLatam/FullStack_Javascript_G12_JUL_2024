@@ -28,5 +28,10 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 29/07/2024 Introducción CSS https://youtu.be/-Tp9PMGSxTg
 - 31/07/2024 Box Model y Selectores de id y clase https://youtu.be/0c3QK06pc7c
 - 02/08/2024 Repaso de pseudoclases y pseudoElementos, position https://youtu.be/PYeqEsIUbIU
-- 05/08/2024 Flexbox (display:flex- justify-content, align-items, flex-wrap y gap) 
+- 05/08/2024 Flexbox https://youtu.be/TYxW5q2m3Kg
+- 08/08/2024 Flexbox https://www.youtube.com/watch?v=HxPx9i_iRpk 
+- 12/08/2024 Repaso Flexbox y Media Queries https://youtu.be/oFxqZSymacQ 
+- 14/08/2024 Grid https://youtu.be/9xRWZo1WXYI
+- 16/08/2024 Grid Area https://youtu.be/Fyv1iWteYIE
+
 
