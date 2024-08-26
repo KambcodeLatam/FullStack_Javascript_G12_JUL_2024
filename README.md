@@ -21,6 +21,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Cómo instalar VSCode https://youtu.be/2NsfW1Okz2M
 - Cómo instalar GitHub https://youtu.be/ZOUqjep8hWc
 - Cómo usar Discord para las sesiones de trabajo colaborativo https://youtu.be/etfWfN1b0YI
+
 ## Modulo 1
 - 22/07/2024 Introducción a HTML https://youtu.be/Bqx30jVtmVI
 - 24/07/2024 Tablas y bases de formularios https://www.youtube.com/watch?v=T0o-hi0YQDw
@@ -34,4 +35,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 14/08/2024 Grid https://youtu.be/9xRWZo1WXYI
 - 16/08/2024 Grid Area https://youtu.be/Fyv1iWteYIE
 
-
+## Modulo 2
