@@ -17,7 +17,7 @@
 - true // ->  verdadero
 - false // -> false
 
-// document.write('Kambcode Latam');
+document.write('Kambcode Latam');
 
 // ------------------------------------------------------
 // Variables (var)
@@ -28,7 +28,7 @@ var precio2; // Declarar una variable
 precio2 = 22; // Asignando un valor a la variable (Manera menos eficiente)
 
 var precio = 40; // Manera mas eficiente
-// document.write("El precio de los audifonos es:", precio);
+document.write("El precio de los audifonos es:", precio);
 
 // Otros ejemplos 
 
@@ -59,8 +59,9 @@ document.write("<br> El valor X2 del producto es: ", costoTotalX2);
 
 // ---------------------------------------------------------
 // alert('Esto es una alerta en JS');
-// var nombreUsuario = prompt('Escriba tu nombre') // Daniel Cañon
+// var nombreUsuario = prompt('Escriba tu nombre') // Daniel
 // document.write("<br>", nombreUsuario);
 
-var nombre = prompt("Digita tu nombre") // Daniel
-var alturaCm = prompt("Digita tu altura en CM") // 178
+// var nombre = prompt("Digita tu nombre") // Daniel
+var alturaCm = Number(prompt("Digita tu altura en CM")) // 58.9
+document.write("<br>Tu imc es: ", alturaCm, "%")
