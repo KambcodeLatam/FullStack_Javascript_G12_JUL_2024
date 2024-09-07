@@ -31,17 +31,17 @@
 
 // const country = prompt('Digita tu pais de origen'); // ecuador
 
-// if(country === "colombia"){ // false
-//     document.write('Hola, eres colombiano');
-// } else if(country === "panama"){ // false
-//     document.write('Hola, eres panameño');
-// } else if(country === "venezuela"){ // false
-//     document.write('Hola, eres venezolano');
-// } else if(country === "peru"){ // false
-//     document.write('Hola, eres peruano');
-// } else {
-//     document.write('NO perteneces a ninguno de los paises registrados');
-// }
+if(country === "colombia"){ // false
+    document.write('Hola, eres colombiano');
+} else if(country === "panama"){ // false
+    document.write('Hola, eres panameño');
+} else if(country === "venezuela"){ // false
+    document.write('Hola, eres venezolano');
+} else if(country === "peru"){ // false
+    document.write('Hola, eres peruano');
+} else {
+    document.write('NO perteneces a ninguno de los paises registrados');
+}
 
 // document.write('<br>Fin del programa');
 
@@ -99,8 +99,8 @@
 // - Las mujeres siempre entran gratis
 // - Los mayores de 18 años -> Pagan cover de $30.000
 
-const genero = prompt('Digita tu genero (male/female)');
-const age = Number(prompt('Digita tu edad'));
+const genero = prompt('Digita tu genero (male/female)'); // male
+const age = Number(prompt('Digita tu edad')); // 25
 
 if(age < 18){
     document.write('No puedes ingresar')

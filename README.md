@@ -40,3 +40,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C2. 28/08/2024 Condicionales (if-else): https://youtu.be/spV4ouj-BoY
 - C3. 30/08/2024 Operadores Lógicos (AND y OR) - var vs const: https://youtu.be/PAmejp0D3wk
 - C4. 02/09/2024 Condicionales if / else if / else: https://youtu.be/uDM2vr-zTMk
+- C5. 06/09/2024 Bucles while y for: https://youtu.be/yPIHtERlV4U
