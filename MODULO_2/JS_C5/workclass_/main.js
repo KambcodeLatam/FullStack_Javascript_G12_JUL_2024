@@ -40,7 +40,7 @@
 
 // var number = 1;
 
-// while(number <= 100000){ // true
+// while(number <= 100){ // true
 //     document.write(`${number} <br>`); // 3
 //     number = number + 1; // number = 3 + 1 = 4
 // }
@@ -87,18 +87,18 @@
 
 // Exercise = Hacer un programa que imprima los numeros del 1 al 100
 
-// var number = 1;
+var number = 1;
 
-// while(number <= 100){ // true
-//     document.write(`${number} <br>`); // 3
-//     number = number + 1; // number = 3 + 1 = 4
-// }
+while(number <= 100){ // true
+    document.write(`${number} <br>`); // 3
+    number = number + 1; // number = 3 + 1 = 4
+}
 
 // ----------------------------------------------
 
-// for(var number = 1; number <= 100; number++){
-//     document.write(`${number} <br>`);
-// }
+for(var number = 1; number <= 100; number++){
+    document.write(`${number} <br>`); // template literals
+}
 
 // number = number + 1 || number++ -> Contador de uno en uno
 // numero = numero + 2 || numero += 2 -> Contador resumido de diferentes valores
