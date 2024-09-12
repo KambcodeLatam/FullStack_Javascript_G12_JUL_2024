@@ -33,9 +33,9 @@
 
 // -----------------------------------------------------------------
 // Opcional: Escribir un programa que muestre por pantalla las tablas
-// de multiplicar del 1 al 10.
+// de multiplicar del 1 al 100.
 
-for(let number = 1; number <= 100; number++){
+for(let number = 1; number <= 1000; number++){
     document.write(`La tabla del ${number} <br>`)
     for(let i = 1; i <= 10; i++){
         const tableResult = i * number // 1 * 1 = 1
