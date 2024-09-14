@@ -43,3 +43,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C5. 06/09/2024 Bucles while y for: https://youtu.be/yPIHtERlV4U
 - C6. 09/09/2024 var vs let y scope: https://youtu.be/uT2noATEWRE
 - C7. 11/09/2024 node.js y Arreglos: https://youtu.be/ZoQaspC41J0
+- C8. 13/09/2024 Repaso Ciclos y Arreglos: https://youtu.be/6GZ_z6EQfiY

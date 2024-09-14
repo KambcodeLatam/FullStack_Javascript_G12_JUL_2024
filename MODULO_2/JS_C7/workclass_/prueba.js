@@ -1,4 +1,4 @@
-console.log('Hola');
+// console.log('Hola');
 
 // Arreglos || Listas || Array
 // Los arreglos son listas o estrcuturas que permiten almacenar multiples valores
@@ -21,14 +21,14 @@ const vacio = [];
 // console.log(vacio);
 
 // Utilidades de los arreglos
-// 1. Como saber cuantos elemento tiene un arreglo
+// 1. Como saber cuantos elemento tiene un arreglo .length
 
 let shoppingList = ['leche', 'queso', 'pan', 'arroz', 'manzanas'];
 // console.log('Mi arreglo es:', shoppingList);
 // console.log('El numero de elementos de este arreglo son: ', shoppingList.length);
 
 // 2. Para agregar elementos a un array utilizamaos el metodo .push()
-// shoppingList.push('uvas', 'sandia');
+// shoppingList.push('uvas', 'sandia', 'mandarina');
 // console.log(shoppingList);
 
 // 3. Podemos consultar un elemento de la lista en particular
@@ -38,7 +38,7 @@ let shoppingList = ['leche', 'queso', 'pan', 'arroz', 'manzanas'];
 
 // 4. Podemos reemplazar un elemento de un array
 // nuestro arreglo ya no quiero que este pan si no azucar
-shoppingList[2] = 'azucar'
+// shoppingList[2] = 'azucar'
 // console.log(shoppingList);
 
 // ------------------------------------------------------------------------------------
@@ -63,9 +63,9 @@ shoppingList[2] = 'azucar'
 
 const shoppingList3 = [];
 
-for(let counter = 1; counter <= 3; counter++){
-    const element = prompt('Digita un producto'); // mandarina, azucar, sandia
-    shoppingList3.push(element);
-}
+// for(let counter = 1; counter <= 3; counter++){
+    // const element = prompt('Digita un producto'); // mandarina, azucar, sandia
+    // shoppingList3.push(element);
+// }
 
-console.log(shoppingList3);
+// console.log(shoppingList3);
