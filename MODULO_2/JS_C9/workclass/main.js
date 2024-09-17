@@ -150,3 +150,11 @@ function calPrecioTotal (precioProducto, precioEnvio){
 }
 
 console.log(calPrecioTotal(10000, 3000)); // 13000
+
+
+// Puedo enviar arreglos como paramtros a mi funcion, como por ejemplo:
+function array (myArray){
+    console.log(myArray)
+}
+
+array([1, 5, 2])
