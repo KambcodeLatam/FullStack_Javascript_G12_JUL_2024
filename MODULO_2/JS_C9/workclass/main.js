@@ -60,6 +60,7 @@ function calcularFechaNacimiento (age) {
     console.log(`Naciste en ${birthDate}`);
 }
 
+
 // calcularFechaNacimiento(44); // Ana -> Utilzamos nuestra funcion 1 vez
 
 const persona2 = 'Juan'
@@ -72,11 +73,11 @@ const persona3Age = 30;
 // --------------------------------------------------------
 // Tambien pueden haber funciones que no reciban parametros
 
-function diHola(){
-    console.log('Hola')
+function diHola () {
+    console.log('Hola');
 }
 
-// diHola();
+diHola();
 
 // --------------------------------------------------------
 
@@ -114,7 +115,7 @@ function factura (precio){
 
 // --------------------------------------------------------------------------
 // return = En una funcion se utiliza el return para devolver un valor desde la funcion
-//          al lugar donde fue llamada
+//          al lugar donde fue llamada esta.
 
 // 1. Vamos a crear una funcion que calcule el IMC de una persona
 // imc = peso / (altura * altura) // resuelto
@@ -157,4 +158,4 @@ function array (myArray){
     console.log(myArray)
 }
 
-array([1, 5, 2])
+array([1, 5, 2]);

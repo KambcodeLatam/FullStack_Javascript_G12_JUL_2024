@@ -41,6 +41,10 @@ let shoppingList = ['leche', 'queso', 'pan', 'arroz', 'manzanas'];
 // shoppingList[2] = 'azucar'
 // console.log(shoppingList);
 
+// 5. Podemos consultar si un elemento esta dentro del arreglo .includes()
+
+// console.log(shoppingList.includes('azucar')); // true
+
 // ------------------------------------------------------------------------------------
 
 // Hacer un programa que por medio de prompt, le pida al usuario 3 productos y estos
