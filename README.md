@@ -46,3 +46,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C8. 13/09/2024 Repaso Ciclos y Arreglos: https://youtu.be/6GZ_z6EQfiY
 - C9. 16/09/2024 funciones y return: https://youtu.be/qvHuCBLn7mM
 - C10. 18/09/2024 Objetos y Arrow Function: https://youtu.be/mESfDocZ9no
+- C11. 20/09/2024 Modificando el DOM: https://youtu.be/SmiNSHQkyTc
