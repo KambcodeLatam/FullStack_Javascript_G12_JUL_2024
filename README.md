@@ -47,3 +47,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C9. 16/09/2024 funciones y return: https://youtu.be/qvHuCBLn7mM
 - C10. 18/09/2024 Objetos y Arrow Function: https://youtu.be/mESfDocZ9no
 - C11. 20/09/2024 Modificando el DOM: https://youtu.be/SmiNSHQkyTc
+
+
+## Modulo 3
+- C1. 23/09/2024 Introducción a git https://youtu.be/bWc9HML77eU
