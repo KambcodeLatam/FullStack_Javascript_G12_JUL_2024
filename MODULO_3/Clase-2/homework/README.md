@@ -33,7 +33,7 @@ git clone URL_REPOSITORIO_GIT
 git checkout -b nombre-apellido-112234-tarea-2
 ``` 
 
-3. **Agregando nuevos archivos a tu rama:** En tu rama debes crear una carpeta siguiendo lo siguiente estructura NOMBRE_APELLIDO_TELEFONO (recuerda evitar el uso de espacios y caracteres especiales como puntos y comas). En la carpeta que acabas de crear debes agregar un archivo README.md en donde deberás explicar que son las estructuras de control en programación y cuales se pueden usar en javascript. 
+3. **Agregando nuevos archivos a tu rama:** En tu rama debes crear una carpeta siguiendo lo siguiente estructura NOMBRE_APELLIDO_TELEFONO (recuerda evitar el uso de espacios y caracteres especiales como puntos y comas). En la carpeta que acabas de crear, debes crear una subcarpeta llamada tarea-2 y despues debes agregar un archivo README.md dentro de tarea-2, en donde deberás explicar que son las estructuras de control en programación y cuales se pueden usar en javascript. 
 
 4. **Verificar los cambios:** Verifica el estado de los cambios utilizando el comando git status.
 
