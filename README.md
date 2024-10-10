@@ -57,3 +57,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C5. 02/10/2024 Markdown y comparadores en js https://youtu.be/GVMWR0vYS5I
 - C6. 04/10/2024 Coercion y operadores lógicos  https://youtu.be/lBCs2EOnjio
 - C7. 07/10/2024 Arrays y objetos https://youtu.be/yJ2e4nhifTI
+- C8. 09/10/2024 ES6 arrays y scope https://youtu.be/KkfukCXbOuY
