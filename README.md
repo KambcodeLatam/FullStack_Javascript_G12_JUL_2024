@@ -59,5 +59,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C7. 07/10/2024 Arrays y objetos https://youtu.be/yJ2e4nhifTI
 - C8. 09/10/2024 ES6 arrays y scope https://youtu.be/KkfukCXbOuY
 - C9. 11/10/2024 Funciones y callbacks https://youtu.be/oI7BKs5ENWo
-- C10. 15/09/2024 Promesas y repaso de callbacks https://youtu.be/XMAPlI9cs8k
-- C11. 16/09/2024 Repaso promesas y fetch con APIs externas https://youtu.be/AVTjqrDF69M
+- C10. 15/10/2024 Promesas y repaso de callbacks https://youtu.be/XMAPlI9cs8k
+- C11. 16/10/2024 Repaso promesas y fetch con APIs externas https://youtu.be/AVTjqrDF69M
+- C12. 18/10/2024 Async await https://youtu.be/OJmiAm2EJxo
