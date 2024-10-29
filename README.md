@@ -62,3 +62,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C10. 15/10/2024 Promesas y repaso de callbacks https://youtu.be/XMAPlI9cs8k
 - C11. 16/10/2024 Repaso promesas y fetch con APIs externas https://youtu.be/AVTjqrDF69M
 - C12. 18/10/2024 Async await https://youtu.be/OJmiAm2EJxo
+
+## Modulo 4
+- C1. 28/10/2024 Modificacion del DOM y metodos HTTP https://youtu.be/2zIERDLlbJA
