@@ -67,3 +67,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C1. 28/10/2024 Modificacion del DOM y metodos HTTP https://youtu.be/2zIERDLlbJA
 - C2. 30/10/2024 Ejercicio practica usando Fetch y que es vite https://youtu.be/F8ZklY9bi7Y
 - C3. 01/11/2024 Comunicacion entre componentes https://youtu.be/8WB4iuy4SuA
+- C4. 05/11/2024 Hooks useState, useEffect y comunicacion entre componente https://youtu.be/di6rR5b2C2U 
