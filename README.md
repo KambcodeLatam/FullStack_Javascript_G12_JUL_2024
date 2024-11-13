@@ -69,3 +69,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C3. 01/11/2024 Comunicacion entre componentes https://youtu.be/8WB4iuy4SuA
 - C4. 05/11/2024 Hooks useState, useEffect y comunicacion entre componente https://youtu.be/di6rR5b2C2U 
 - C5. 07/11/2024 Ejercicio Practico Login https://youtu.be/WD48BaVbbGQ
+- C6. 12/11/2024 Ejercicio practico de props y funcion map https://youtu.be/NGlZdrhGsyM
