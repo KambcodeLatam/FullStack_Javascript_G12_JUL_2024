@@ -73,3 +73,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C7. 14/11/2024 instalacion Biblioteca react-router-dom y ejercicio practico https://youtu.be/kKONP5GItGE 
 - C8. 18/11/2024 Ejercicio practico buscador https://youtu.be/79Ll1skxxcA
 - C9. 20/11/2024 Query params ejercicio practico https://youtu.be/f97aGqIiZSI
+- C10. 22/11/2024 Despliegue con vercel https://youtu.be/xogdQ7k5Ai4
