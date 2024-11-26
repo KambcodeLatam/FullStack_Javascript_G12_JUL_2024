@@ -1,0 +1,13 @@
+
+
+.circle{
+    text-align: center;
+      border-radius: 20px;
+      width: 86px;
+      position: absolute;
+      transform: translate(100%, -50%);
+      background-color: greenyellow;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: black solid 3px;
+  }

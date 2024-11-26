@@ -1,0 +1,7 @@
+
+
+.container-global{
+  display: flex;
+flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea si no caben todas en una sola línea */
+justify-content: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
+}
