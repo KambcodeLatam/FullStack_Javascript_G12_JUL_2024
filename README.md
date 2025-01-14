@@ -75,3 +75,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C9. 20/11/2024 Query params ejercicio practico https://youtu.be/f97aGqIiZSI
 - C10. 22/11/2024 Despliegue con vercel https://youtu.be/xogdQ7k5Ai4
 - C11. 25/11/2024 Ejercicio practico react router dom, explicacion de useContext https://youtu.be/4YMOBLVJQsI
+
+## Modulo 5
+- C1 13/01/2025 Introduccion al modulo 5 repaso js https://youtu.be/imbO0tsoSCs 
