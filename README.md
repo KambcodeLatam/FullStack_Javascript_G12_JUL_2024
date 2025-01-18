@@ -79,3 +79,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## Modulo 5
 - C1 13/01/2025 Introduccion al modulo 5 repaso js https://youtu.be/imbO0tsoSCs 
 - C2 15/01/2025 Intraduccion a node js https://youtu.be/bDhPggM4AY0
+- C3 17/01/2025 Repaso Async await, promesas, callbacks y event loop https://youtu.be/D5JPA3MBm_Y
