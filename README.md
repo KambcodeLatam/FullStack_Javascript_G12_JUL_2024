@@ -82,4 +82,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C3 17/01/2025 Repaso Async await, promesas, callbacks y event loop https://youtu.be/D5JPA3MBm_Y
 - C4 20/01/2025 File System Node.js https://youtu.be/PPvIMYXZlpU 
 - C5 22/01/2025 que es Http, env y argv https://youtu.be/k-Bcq9C7ceo
-
+- C6 24/01/2025 Creando un api con http https://youtu.be/tdRrLvNCOEc
