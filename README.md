@@ -83,3 +83,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C4 20/01/2025 File System Node.js https://youtu.be/PPvIMYXZlpU 
 - C5 22/01/2025 que es Http, env y argv https://youtu.be/k-Bcq9C7ceo
 - C6 24/01/2025 Creando un api con http https://youtu.be/tdRrLvNCOEc
+- C7 27/01/2025 Creando CRUD con express  https://youtu.be/D1xlxlWuYaM
+
