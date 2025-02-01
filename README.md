@@ -85,5 +85,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C6 24/01/2025 Creando un api con http https://youtu.be/tdRrLvNCOEc
 - C7 27/01/2025 Creando CRUD con express  https://youtu.be/D1xlxlWuYaM
 - C8 30/01/2025 Creando los primeros Middlewares https://youtu.be/2gMbx9Jd8jY 
-
-
+- C9 31/01/2025 Creando registro de usuarios, login y middelware https://youtu.be/qD-BM5epL7M
