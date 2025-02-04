@@ -86,3 +86,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C7 27/01/2025 Creando CRUD con express  https://youtu.be/D1xlxlWuYaM
 - C8 30/01/2025 Creando los primeros Middlewares https://youtu.be/2gMbx9Jd8jY 
 - C9 31/01/2025 Creando registro de usuarios, login y middelware https://youtu.be/qD-BM5epL7M
+- C10 03/02/2025 Repaso clase 5, 6 e introduccion a las apis de open ai https://youtu.be/8SAt-v1_gqg
+
